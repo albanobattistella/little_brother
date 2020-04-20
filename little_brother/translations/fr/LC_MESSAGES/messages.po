@@ -1,7 +1,7 @@
 # French translations for PROJECT.
 # Copyright (C) 2020 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# ALBANO BATTISTELLA <albano_battistella@hotmail.com>, 2020.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-04-18 12:22+0200\n"
 "PO-Revision-Date: 2020-04-14 21:34+0200\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Albano Battistella <albano_battistella@hotmail.com>\n"
 "Language: fr\n"
 "Language-Team: fr <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
@@ -20,54 +20,64 @@ msgstr ""
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/api_view_handler.py:80
 msgid "username '{username}' not specified"
-msgstr ""
+msgstr "nom d'utilisateur '{username}' non spécifié"
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/api_view_handler.py:88
 msgid "username '{username}' not being monitored"
-msgstr ""
+msgstr ""nom d'utilisateur '{username}' non surveillé"
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:152
 msgid "{days} days ago"
-msgstr ""
+msgstr "{days} il y a quelques jours"
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:155
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/templates/index.template.html:46
 msgid "Today"
-msgstr ""
+msgstr "Aujourd'hui"
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:156
 msgid "Yesterday"
-msgstr ""
+msgstr "Hier"
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:158
 msgid ""
 "{user}, you do not have computer time left today.\n"
 "You will be logged out."
 msgstr ""
+"{user}, il ne vous reste plus de temps sur l'ordinateur aujourd'hui.\n"
+"Vous serez déconnecté."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:159
 msgid ""
 "{user}, you only have {minutes_left_before_logout} minutes left today.\n"
 "Please, log out."
 msgstr ""
+{user}, il ne vous reste que {minutes_left_before_logout} minutes aujourd'hui.\n"
+"Veuillez vous déconnecter."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:161
 msgid ""
 "{user}, you do not have any computer time today.\n"
 "You will be logged out."
 msgstr ""
+"{user}, vous ne disposez pas de temps d'ordinateur aujourd'hui.\n"
+"Vous serez déconnecté.
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:162
 msgid ""
 "{user}, it is too early to use the computer.\n"
 "You will be logged out."
 msgstr ""
+"{user}, il est trop tôt pour utiliser l'ordinateur.\n"
+"Vous serez déconnecté."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:163
 msgid ""
 "{user}, it is too late to use the computer.\n"
 "You will be logged out."
 msgstr ""
+"{utilisateur}, il est trop tard pour utiliser l'ordinateur.\n
+"Vous serez déconnecté."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:164
 msgid ""
@@ -75,12 +85,17 @@ msgid ""
 "use the computer.\n"
 "Please, log out."
 msgstr ""
+{user}, dans {minutes left_before_logout} minutes, il sera trop tard pour "
+"utiliser l'ordinateur.\n"
+"Veuillez vous déconnecter."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:166
 msgid ""
 "{user}, you have to take a break.\n"
 "You will be logged out."
 msgstr ""
+"{user}, vous devez faire une pause.\n"
+"Vous serez déconnecté."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:167
 msgid ""
@@ -88,12 +103,17 @@ msgid ""
 "break.\n"
 "Please, log out."
 msgstr ""
+"{user}, dans {minutes_left_before_logout} minutes, vous devrez prendre un"
+"pause.\n"
+"Veuillez vous déconnecter."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:169
 msgid ""
 "{user}, your break will only be over in {break_minutes_left} minutes.\n"
 "You will be logged out."
 msgstr ""
+"{user}, votre pause ne sera terminée que dans {break_minutes_left} minutes.\n"
+"Vous serez déconnecté.
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:171
 msgid ""
@@ -101,6 +121,9 @@ msgid ""
 "minutes\n"
 "in this session."
 msgstr ""
+"Bonjour {user}, vous serez autorisé à jouer pendant {minutes_left_in_session}"
+"Minutes\n"
+"dans cette session."
 
 #: /home/mr/projects/LittleBrotherGitHub/little_brother/app_control.py:173
 msgid "Hello {user}, you have unlimited playtime in this session."
@@ -477,37 +500,39 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Today ({day:%%a})"
-#~ msgstr ""
+#~ msgstr "Aujourd'hui"
 
 #~ msgid "Tomorrow ({day:%%a})"
-#~ msgstr ""
+#~ msgstr "Demain ({day:%%a})"
 
 #~ msgid "Tomorrow"
-#~ msgstr ""
+#~ msgstr "Demain"
 
 #~ msgid "{day:%%Y-%%m-%%d (%%a)}"
-#~ msgstr ""
+#~ msgstr "{day:%%Y-%%m-%%d (%%a)}""
 
 #~ msgid "{day:%%A}"
-#~ msgstr ""
+#~ msgstr "{day:%%A}""
 
 #~ msgid "Cannot request user status using url '{url}'"
-#~ msgstr ""
+#~ msgstr "Impossible de demander le statut de l'utilisateur à l'aide de l'url '{url}'"
 
 #~ msgid "User '{username}' not logged in"
-#~ msgstr ""
+#~ msgstr "L'utilisateur '{username}' n'est pas connecté"
 
 #~ msgid ""
 #~ "Time left:\n"
 #~ "{minutes} minutes"
 #~ msgstr ""
+#~ "Temps restant:\n"
+#~ "{minutes} minutes"
 
 #~ msgid "Unlimited Time"
-#~ msgstr ""
+#~ msgstr "Temps illimité"
 
 #~ msgid "No Activity Allowed"
-#~ msgstr ""
+#~ msgstr "Aucune Activité Autorisée"
 
 #~ msgid "effective"
-#~ msgstr ""
+#~ msgstr "effectif"
 
